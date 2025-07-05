@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo do Conteudo </title>
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Relief:wght@400;700&family=Delius+Swash+Caps&family=Lexend+Giga:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+    nav{
+        background-color: rgb(54, 55, 56);
+        padding: 15px;
+        margin: none;
+        display: flex;
+     justify-content: center;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    } 
+
+    .navegador { 
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        color: aliceblue;
+        list-style: none;
+        }
+        .navegador ul {
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+        }
+        .navegador li {
+        list-style: none;
+        }
+        .navegador a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+        }
+        .navegador a:hover {
+        background-color: hsla(0, 0%, 100%, 0);
+        border-radius: 4px;
+        }
+        main {
+            display: block;
+            background-color: rgb(255, 255, 255);
+            margin: 10px auto 10px;
+            width: 55%;
+            padding: 10px;
+            border-radius: 2px;
+          
+            
+        }
+
+        aside.sidebar {
+            width: 20%;
+            background-color: rgb(27, 145, 255);
+            padding: 10px;
+            margin: 0;
+            position: fixed;
+            left: 10px;
+            top: 100px;
+            height: 100%;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        aside.sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside.sidebar li {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        
+
+
+
+        body{background-color: rgb(255, 255, 255);
+        margin: 0;
+        font-family: 'Lexend Giga', sans-serif;    
+                                            }
+
+        h1, h2 {
+            color: rgb(0, 0, 0);
+            text-align: left;
+            border-left: 5px solid rgb(49, 109, 238) ; padding-left: 2px;
+
+
+        }
+
+        code {
+            background-color: rgb(96, 102, 105);
+            color: white;
+            padding: 2px 4px;
+            border-radius: 5px
+            
+        }
+
+        footer{
+            background-color: rgb(54, 55, 56);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+    <nav>
+        <div class="navegador">
+       <ul>
+            <li><a href="#Introdução">Introdução</a></li>
+             <li><a href="#">Desenvolvimento</a></li>
+             <li><a href="#">Conclusão</a></li>
+
+       </ul>
+    </nav>
+<main>
+    <h1 id="Introdução">Resumo do Conteúdo</h1>
+    <p>Este é um exemplo de página HTML que contém um resumo do conteúdo. Que aprendi no Curso de HTML da DIO.</p> <hr>
+    <h2 id="semantica"> Semantica </H2>
+        <p>Aprendi que semantica é uma parte que ajuda o navegador entender o que de fato aqui é , por exemplo: Antes , usavamos a tag div pra tudo, mas hoje em dia temos tags mais especificas como<code> header, footer, main, section, article</code>, entre outras. Essas tags ajudam a organizar o conteudo de forma mais clara e compreensivel para o navegador e para os motores de busca.</p><hr>
+    <h2 id="assesibilidade"> Assesibilidade </H2>
+        <p>A acessibilidade é uma parte muito importante em um site, pois existem pessoas com deficiência visual que utilizam softwares leitores de tela para acessar o conteúdo. Construir um site acessível ajuda essas pessoas a consumirem o conteúdo de forma eficiente e inclusiva. Algumas tags que podemos usar é a tag  <code> Alt  </code> para imagens, que descreve o conteúdo da imagem para os leitores de tela. Além disso, podemos usar a tag <code> aria-label </code> para fornecer informações adicionais sobre elementos interativos. ou adicinado a tag <code> Title </code></p><hr>
+    <h2 id="SEO"> SEO   </h2>
+        Aprendemos que SEO (Search Engine Optimization) é um conjunto de práticas que ajudam a melhorar a visibilidade de um site nos motores de busca. Isso inclui o uso adequado de tags HTML, como <code> title </code>, <code> meta description </code>, e a estruturação correta do conteúdo com cabeçalhos (<code> h1, h2, h3 </code>). Além disso, a escolha de palavras-chave relevantes e a otimização de imagens também são fundamentais para uma boa estratégia de SEO.</p> <hr>
+    <h2 id="cores"> Cores </h2>
+        <p>As cores desempenham um papel crucial no design de um site, pois influenciam a experiência do usuário e a percepção da marca. É importante escolher uma paleta de cores que seja harmoniosa e que transmita a mensagem desejada. Além disso, devemos considerar o contraste entre as cores para garantir a legibilidade do texto e a acessibilidade para pessoas com deficiência visual.</p> <hr>
+        
+    <h2 id="Figure "> Figure e Imagem  </h2>
+        <p>As tags <code> figure </code> e <code> img </code> são usadas para incorporar imagens em uma página HTML. A tag <code> figure </code> é usada para agrupar uma imagem com sua legenda, enquanto a tag <code> img </code> é usada para exibir a imagem propriamente dita. É importante sempre incluir o atributo <code> alt </code> na tag <code> img </code> para descrever o conteúdo da imagem, garantindo acessibilidade para usuários com deficiência visual.</p> 
+
+        <figure>
+            <img src="HD-wallpaper-artistic-pixel-art.jpg" alt="Exemplo de imagem">
+            <figcaption>Exemplo da Tag <code> Figure </code></figcaption>
+        </figure> 
+        <p>Esse é um exemplo de tag <code>Imagem</code> </p>
+        <img src="HD-wallpaper-artistic-pixel-art.jpg" alt="Exemplo de imagem" style="width: auto; height: auto;"
+        title="Imagem"> <hr>
+    
+    <h2 id="blockote e summary">blockote e summary</h2>
+        <p>As tags <code> blockquote </code> e <code> summary </code> são usadas para citar trechos de texto e fornecer resumos de conteúdo, respectivamente. A tag <code> blockquote </code> é usada para destacar citações de outras fontes, enquanto a tag <code> summary </code> é usada para fornecer um resumo de um conteúdo mais extenso, como em listas ou seções de informações.</p>
+        <blockquote>
+            <p>"A acessibilidade é um direito, não um privilégio."</p>
+            <footer>- Autor Desconhecido</footer>
+        </blockquote>
+    <p>O exemplo acima mostra como usar a tag <code> blockquote </code> para citar uma frase. A tag <code> footer </code> dentro do <code> blockquote </code> é usada para indicar a fonte da citação.</p>
+    
+        <p>O atributo <code> cite </code> é usado para indicar a fonte de uma citação ou referência. Ele pode ser usado dentro da tag <code> blockquote </code> para fornecer informações sobre a origem da citação.</p>    
+        <p>também tem a  Tag <code> q </code> que é uma pequena citação </p>
+        <p>Exemplo de uso da tag <code> q </code>:</p>
+        <p>“A acessibilidade é essencial para todos.”</p>
+        <p>O exemplo acima mostra como usar a tag <code> q </code> para citar uma frase curta. A tag <code> q </code> é usada para citações inline, enquanto a tag <code> blockquote </code> é usada para citações mais longas ou destacadas.</p>
+        </details>
+        <p>Essas tags ajudam a organizar o conteúdo de forma mais clara e compreensível, tanto para os usuários quanto para os motores de busca.</p>
+
+    <h2 id=" Tabela e Formulário ">Tabela e Formulário</h2>
+        <p>As tabelas são usadas para organizar dados em linhas e colunas, facilitando a visualização de informações estruturadas. A tag <code> table </code> é usada para criar uma tabela, enquanto as tags <code> tr </code>, <code> th </code> e <code> td </code> são usadas para definir linhas, cabeçalhos e células de dados, respectivamente.</p>
+        <p>Os formulários são usados para coletar informações dos usuários. A tag <code> form </code> é usada para criar um formulário, enquanto as tags <code> input </code>, <code> label </code>, <code> textarea </code>, entre outras, são usadas para definir os campos de entrada e rótulos.</p>
+
+        <p>Exemplo de Formulario</p>
+            Meu Formulário  
+        <form action="#" method="post">
+            <label for="nome">Nome:</label> 
+            <input type="text" id="nome" name="nome"  placeholder="Digite seu nome" required> 
+            <label for="numero">Telefone:</label>
+            <input type="tel" name="numero" id="numero" placeholder="Telefone " required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  placeholder="Digite seu email" required>
+            <button type="reset">Limpar </button>
+        </form>
+
+
+
+
+        <p>Exemplo de tabela</p>
+        
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>aninha.silva@gmail.com</td>
+                <td>25</td>   
+            </tr>
+            <tr>    
+                <td>João</td>
+                <td>joão.lima@gmail.com</td>
+                <td>30</td>         
+            </tr>
+        </table>
+        <h2>Audio e Video </h2>
+            <p>As tags <code>audio</code> e <code>video</code> permitem incorporar arquivos de mídia, como músicas e vídeos, diretamente na página HTML.</p>
+        <h3>Exemplo de áudio:</h3>
+            <audio controls>
+                <source src="exemplo-musica.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento <code>audio</code>.
+            </audio>
+
+        <h3>Exemplo de vídeo:</h3>
+            <video width="320" height="240" controls>
+                <source src="exemplo-video.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento <code>video</code>.
+            </video>
+            <p>Utilize o atributo <code>controls</code> para exibir os controles de reprodução para o usuário, permitindo pausar, avançar ou retroceder o áudio e o vídeo.</p>
+            <p>A tag <code>iframe</code> permite incorporar conteúdos externos, como vídeos do YouTube, mapas ou outras páginas, diretamente no seu site. <br> Veja um exemplo de vídeo incorporado do YouTube:</p>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=Rvmy3THizs1kuN7S&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br> <hr>
+
+        <h2 id="Outros"> Outras Tags </h2>
+            <p>Tag: <code>Lo e Lu </code> Essas Tag são usadas para criar listas ordenadas e não ordenadas, respectivamente. A tag <code> ol </code> é usada para listas ordenadas, enquanto a tag <code> ul </code> é usada para listas não ordenadas. As tags <code> li </code> são usadas para definir os itens da lista.</p>
+            <p>Exemplo de lista ordenada:</p>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+
+            </ol>
+            <p>Exemplo de lista não ordenada:</p>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+                
+            </ul>
+            <p>As tags <code> hr  br  u mark </code> são usadas para criar linhas horizontais, quebras de linha, listas não ordenadas e destacar texto, respectivamente. A tag <code> hr </code> é usada para criar uma linha horizontal, a tag <code> br </code> é usada para inserir uma quebra de linha, a tag <code> ul </code> é usada para listas não ordenadas e a tag <code> mark </code> é usada para destacar texto.</p>
+            <p>Exemplo de linha horizontal:</p>
+            <hr>
+            <p>Exemplo de quebra de linha:</p>
+            <p>Este é um exemplo de quebra de linha.<br> A quebra de linha é inserida usando a tag <code> br </code>.</p>
+            <p>Este é um exemplo de texto destacado usando a tag <code> mark </code>. O texto destacado é geralmente usado para chamar a atenção para informações importantes.</p>
+            <p>Este é um exemplo da Tag U que é o Underline <u> Underline </u> </p>
+            <p>As tags <code> sub </code> e <code> sup </code> são usadas para criar texto subscrito e sobrescrito, respectivamente. A tag <code> sub </code> é usada para texto que deve aparecer abaixo da linha de base, enquanto a tag <code> sup </code> é usada para texto que deve aparecer acima da linha de base.</p>
+            <p>Exemplo de texto subscrito: H<sub>2</sub>O (água) é um composto químico formado por dois átomos de hidrogênio e um átomo de oxigênio.</p>
+            <p>Exemplo de texto sobrescrito: E=mc<sup>2</sup> é a famosa equação de Albert Einstein que relaciona energia (E), massa (m) e a velocidade da luz (c).</p>
+            <p>Este é um exemplo de texto em <strong>negrito</strong> usando a tag <code> strong </code>. A tag <code> strong </code> é usada para enfatizar o texto, enquanto a tag <code> b </code> é usada apenas para aplicar o estilo de <b>negrito </b> sem semântica.</p>
+            <p>Este é um exemplo de texto em <em>itálico</em> usando a tag <code> em </code>. A tag <code> em </code> é usada para enfatizar o texto, enquanto a tag <code> i </code> é usada apenas para aplicar o estilo de <i>itálico</i> sem semântica.</p>
+
+            <h2 id="Conclusão">Conclusão</h2>
+                <p>Este resumo abrange as principais tags e conceitos  que eu aprendi   no curso de HTML da DIO. A semântica, acessibilidade, SEO, cores, uso de imagens e vídeos, além de tabelas e formulários, são fundamentais para criar páginas web eficientes e inclusivas. A prática constante e a aplicação desses conceitos em projetos reais ajudaram-me  a consolidar o conhecimento adquirido.</p>
+                <p>Espero que este resumo seja útil para revisar os principais pontos abordados no curso. !</p>
+</main>
+            
+           
+    
+            
+        
+
+
+<aside class="sidebar">
+
+    <ul>
+        <li><a href="#semantica">Sobre semantica</a></li>
+        <li><a href="#">Sobre assesibilidade</a></li>
+        <li><a href="#">Sobre SEO</a></li>
+        <li><a href="#">Sobre Cores </a></li>
+    </ul>
+
+</aside> <br> <br> <hr>
+
+
+<footer>
+    <p>&copy; 2025 - Resumo do Conteúdo. Todos os direitos reservados.</p>
+    <p>Desenvolvido por: Vinicius Silva            </p>
+
+   <a href="https://github.com/silvavin" target="_parent" > <img src="25231.png" alt="Github"   style="width: 50px; "></a>
+</footer>    
+
+</body>
+</html>
